@@ -1,5 +1,5 @@
 {
-  "name": "meadow-utils",
+  "name": "@homamo/meadow-utils",
   "version": "0.0.1",
   "description": "Simple and helpful utilities for working on Meadow projects",
   "author": "Samuel Goudie <sam@homamo.co>",
