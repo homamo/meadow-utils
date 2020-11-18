@@ -4,6 +4,8 @@ import checkUserHasAnyRole from './lib/checkUserHasAnyRole';
 import checkUserHasOneOfRoles from './lib/checkUserHasOneOfRoles';
 import checkUserHasRole from './lib/checkUserHasRole';
 
+import cleanUserObject from './lib/cleanUserObject';
+
 import convertDecimalToPercent from './lib/convertDecimalToPercent';
 import convertPercentToDecimal from './lib/convertPercentToDecimal';
 import convertToPence from './lib/convertToPence';
@@ -18,6 +20,9 @@ import formatPercentage from './lib/formatPercentage';
 import formatSnakeAsText from './lib/formatSnakeAsText';
 import formatUserName from './lib/formatUserName';
 
+import getRandomArrayValue from './lib/getRandomArrayValue';
+import getRandomInt from './lib/getRandomInt';
+
 import pluralize from './lib/pluralize';
 import round from './lib/round';
 import safeUserProfileField from './lib/safeUserProfileField';
@@ -29,6 +34,7 @@ export {
   checkUserHasAnyRole,
   checkUserHasOneOfRoles,
   checkUserHasRole,
+  cleanUserObject,
   checkFileIsCsv,
   convertDecimalToPercent,
   convertPercentToDecimal,
@@ -42,6 +48,8 @@ export {
   formatPercentage,
   formatSnakeAsText,
   formatUserName,
+  getRandomArrayValue,
+  getRandomInt,
   pluralize,
   round,
   safeUserProfileField,

@@ -9,6 +9,8 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - checkUserHasRole
 - checkFileIsCsv
 
+- cleanUserObject
+
 - convertDecimalToPercent
 - convertPercentToDecimal
 - convertToPence
@@ -22,6 +24,9 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - formatPercentage
 - formatSnakeAsText
 - formatUserName
+
+- getRandomArrayValue,
+- getRandomInt,
 
 - pluralize
 - round
