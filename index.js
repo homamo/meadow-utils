@@ -1,5 +1,6 @@
 import capitalize from './lib/capitalize';
 import checkFileIsCsv from './lib/checkFileIsCsv';
+import checkUserHasAnyRole from './lib/checkUserHasAnyRole';
 import checkUserHasOneOfRoles from './lib/checkUserHasOneOfRoles';
 import checkUserHasRole from './lib/checkUserHasRole';
 
@@ -22,6 +23,7 @@ import scrollToTop from './lib/scrollToTop';
 
 export {
   capitalize,
+  checkUserHasAnyRole,
   checkUserHasOneOfRoles,
   checkUserHasRole,
   checkFileIsCsv,
