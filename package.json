@@ -1,6 +1,6 @@
 {
   "name": "@homamo/meadow-utils",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Simple and helpful utilities for working on Meadow projects",
   "author": "Samuel Goudie <sam@homamo.co>",
   "license": "MIT",
