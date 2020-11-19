@@ -1,5 +1,6 @@
 import capitalize from './lib/capitalize';
 import checkFileIsCsv from './lib/checkFileIsCsv';
+import checkUserHasRecordAccess from './lib/checkUserHasRecordAccess';
 import checkUserHasAnyRole from './lib/checkUserHasAnyRole';
 import checkUserHasOneOfRoles from './lib/checkUserHasOneOfRoles';
 import checkUserHasRole from './lib/checkUserHasRole';
@@ -35,6 +36,7 @@ export {
   checkUserHasAnyRole,
   checkUserHasOneOfRoles,
   checkUserHasRole,
+  checkUserHasRecordAccess,
   cleanUserObject,
   checkFileIsCsv,
   convertDecimalToPercent,
