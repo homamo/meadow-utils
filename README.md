@@ -20,6 +20,7 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - formatBytes
 - formatCurrency
 - formatDateTime
+- formatKebabText
 - formatOrdinalNumber
 - formatPercentage
 - formatSnakeAsText

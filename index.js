@@ -15,6 +15,7 @@ import formatAddress from './lib/formatAddress';
 import formatBytes from './lib/formatBytes';
 import formatCurrency from './lib/formatCurrency';
 import formatDateTime from './lib/formatDateTime';
+import formatKebabText from './lib/formatKebabText';
 import formatOrdinalNumber from './lib/formatOrdinalNumber';
 import formatPercentage from './lib/formatPercentage';
 import formatSnakeAsText from './lib/formatSnakeAsText';
@@ -44,6 +45,7 @@ export {
   formatBytes,
   formatCurrency,
   formatDateTime,
+  formatKebabText,
   formatOrdinalNumber,
   formatPercentage,
   formatSnakeAsText,
