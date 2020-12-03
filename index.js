@@ -25,6 +25,7 @@ import formatUserName from './lib/formatUserName';
 import getRandomArrayValue from './lib/getRandomArrayValue';
 import getRandomInt from './lib/getRandomInt';
 
+import keepParams from './lib/keepParams';
 import pluralize from './lib/pluralize';
 import round from './lib/round';
 import safeUserProfileField from './lib/safeUserProfileField';
@@ -54,6 +55,7 @@ export {
   formatUserName,
   getRandomArrayValue,
   getRandomInt,
+  keepParams,
   pluralize,
   round,
   safeUserProfileField,

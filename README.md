@@ -30,6 +30,7 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - getRandomArrayValue,
 - getRandomInt,
 
+- keepParams
 - pluralize
 - round
 - safeUserProfileField
