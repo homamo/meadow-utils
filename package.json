@@ -1,6 +1,6 @@
 {
   "name": "@homamo/meadow-utils",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Simple and helpful utilities for working on Meadow projects",
   "author": "Samuel Goudie <sam@homamo.co>",
   "license": "MIT",
@@ -10,10 +10,15 @@
     "test": "test"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "NODE_ENV=test jest --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -22,6 +27,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.5",
+    "jest": "^26.6.3",
     "prettier": "^2.1.2"
   },
   "dependencies": {
