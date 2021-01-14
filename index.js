@@ -1,8 +1,10 @@
 import capitalize from './lib/capitalize';
 import checkFileIsCsv from './lib/checkFileIsCsv';
-import checkUserHasRecordAccess from './lib/checkUserHasRecordAccess';
+
 import checkUserHasAnyRole from './lib/checkUserHasAnyRole';
+import checkUserHasBetaAccess from './lib/checkUserHasBetaAccess';
 import checkUserHasOneOfRoles from './lib/checkUserHasOneOfRoles';
+import checkUserHasRecordAccess from './lib/checkUserHasRecordAccess';
 import checkUserHasRole from './lib/checkUserHasRole';
 
 import cleanUserObject from './lib/cleanUserObject';
@@ -17,13 +19,19 @@ import formatBytes from './lib/formatBytes';
 import formatCurrency from './lib/formatCurrency';
 import formatDateTime from './lib/formatDateTime';
 import formatKebabText from './lib/formatKebabText';
+import formatNumberFromPx from './lib/formatNumberFromPx';
 import formatOrdinalNumber from './lib/formatOrdinalNumber';
 import formatPercentage from './lib/formatPercentage';
 import formatSnakeAsText from './lib/formatSnakeAsText';
 import formatUserName from './lib/formatUserName';
 
+import getDateFromMonthAndYear from './lib/getDateFromMonthAndYear';
+import getMonthList from './lib/getMonthList';
+import getMonthSelectOptions from './lib/getMonthSelectOptions';
 import getRandomArrayValue from './lib/getRandomArrayValue';
 import getRandomInt from './lib/getRandomInt';
+import getYearList from './lib/getYearList';
+import getYearSelectOptions from './lib/getYearSelectOptions';
 
 import keepParams from './lib/keepParams';
 import pluralize from './lib/pluralize';
@@ -35,9 +43,10 @@ import scrollToTop from './lib/scrollToTop';
 export {
   capitalize,
   checkUserHasAnyRole,
+  checkUserHasBetaAccess,
   checkUserHasOneOfRoles,
-  checkUserHasRole,
   checkUserHasRecordAccess,
+  checkUserHasRole,
   cleanUserObject,
   checkFileIsCsv,
   convertDecimalToPercent,
@@ -49,12 +58,18 @@ export {
   formatCurrency,
   formatDateTime,
   formatKebabText,
+  formatNumberFromPx,
   formatOrdinalNumber,
   formatPercentage,
   formatSnakeAsText,
   formatUserName,
+  getDateFromMonthAndYear,
+  getMonthList,
+  getMonthSelectOptions,
   getRandomArrayValue,
   getRandomInt,
+  getYearList,
+  getYearSelectOptions,
   keepParams,
   pluralize,
   round,
