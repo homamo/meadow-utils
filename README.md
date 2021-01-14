@@ -2,15 +2,11 @@
 
 Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 
-- capitalize
-
 - checkUserHasAnyRole
+- checkUserHasBetaAccess
 - checkUserHasOneOfRoles
-- checkUserHasRole
-- checkFileIsCsv
 - checkUserHasRecordAccess
-
-- cleanUserObject
+- checkUserHasRole
 
 - convertDecimalToPercent
 - convertPercentToDecimal
@@ -22,17 +18,26 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - formatCurrency
 - formatDateTime
 - formatKebabText
+- formatNumberFromPx
 - formatOrdinalNumber
 - formatPercentage
 - formatSnakeAsText
 - formatUserName
 
-- getRandomArrayValue,
-- getRandomInt,
+- getDateFromMonthAndYear
+- getMonthList
+- getMonthSelectOptions
+- getRandomArrayValue
+- getRandomInt
+- getYearList
+- getYearSelectOptions
 
+- capitalize
+- cleanUserObject
+- checkFileIsCsv
 - keepParams
 - pluralize
 - round
 - safeUserProfileField
 - saveFile
-- scrollToTop
+- scrollToTop,
