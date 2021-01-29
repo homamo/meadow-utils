@@ -30,6 +30,7 @@ import getMonthList from './lib/getMonthList';
 import getMonthSelectOptions from './lib/getMonthSelectOptions';
 import getRandomArrayValue from './lib/getRandomArrayValue';
 import getRandomInt from './lib/getRandomInt';
+import getRandomString from './lib/getRandomString';
 import getYearList from './lib/getYearList';
 import getYearSelectOptions from './lib/getYearSelectOptions';
 
@@ -68,6 +69,7 @@ export {
   getMonthSelectOptions,
   getRandomArrayValue,
   getRandomInt,
+  getRandomString,
   getYearList,
   getYearSelectOptions,
   keepParams,
