@@ -6,6 +6,7 @@ import checkUserHasBetaAccess from './lib/checkUserHasBetaAccess';
 import checkUserHasOneOfRoles from './lib/checkUserHasOneOfRoles';
 import checkUserHasRecordAccess from './lib/checkUserHasRecordAccess';
 import checkUserHasRole from './lib/checkUserHasRole';
+import checkUserNotificationsEnabled from './lib/checkUserNotificationsEnabled';
 
 import cleanUserObject from './lib/cleanUserObject';
 
@@ -48,6 +49,7 @@ export {
   checkUserHasOneOfRoles,
   checkUserHasRecordAccess,
   checkUserHasRole,
+  checkUserNotificationsEnabled,
   cleanUserObject,
   checkFileIsCsv,
   convertDecimalToPercent,

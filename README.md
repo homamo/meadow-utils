@@ -7,6 +7,7 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - checkUserHasOneOfRoles
 - checkUserHasRecordAccess
 - checkUserHasRole
+- checkUserNotificationsEnabled
 
 - convertDecimalToPercent
 - convertPercentToDecimal
