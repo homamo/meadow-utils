@@ -4,12 +4,16 @@ test(`Formats pence as pounds`, () => {
   expect(formatCurrency(15000000)).toEqual('£150,000');
 });
 
+test(`Formats pence as pounds without pound sign`, () => {
+  expect(formatCurrency(15000000, { includeSymbol: false })).toEqual('150,000');
+});
+
 test(`Formats pence as pounds with pence`, () => {
   expect(formatCurrency(2222)).toEqual('£22.22');
 });
 
 test(`Formats pence as whole pounds`, () => {
-  expect(formatCurrency(2222, true)).toEqual('£22');
+  expect(formatCurrency(2222, { wholePounds: true })).toEqual('£22');
 });
 
 test(`Formats pence as pounds with zero`, () => {
