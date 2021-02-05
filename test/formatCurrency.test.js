@@ -23,3 +23,17 @@ test(`Formats pence as pounds with zero`, () => {
 test(`Formats zero pounds`, () => {
   expect(formatCurrency(0)).toEqual('£0');
 });
+
+test(`Works with commas`, () => {
+  expect(formatCurrency('150,000', { source: 'pounds' })).toEqual('£150,000');
+});
+
+test(`Works with pounds sign`, () => {
+  expect(formatCurrency('£150,000', { source: 'pounds' })).toEqual('£150,000');
+});
+
+test(`Works with decimals`, () => {
+  expect(formatCurrency('150,000.00', { source: 'pounds' })).toEqual(
+    '£150,000',
+  );
+});
