@@ -10,6 +10,8 @@ import checkUserNotificationsEnabled from './lib/checkUserNotificationsEnabled';
 
 import cleanUserObject from './lib/cleanUserObject';
 
+import constructCloudinaryUrl from './lib/constructCloudinaryUrl';
+
 import convertDecimalToPercent from './lib/convertDecimalToPercent';
 import convertPercentToDecimal from './lib/convertPercentToDecimal';
 import convertToPence from './lib/convertToPence';
@@ -52,6 +54,7 @@ export {
   checkUserNotificationsEnabled,
   cleanUserObject,
   checkFileIsCsv,
+  constructCloudinaryUrl,
   convertDecimalToPercent,
   convertPercentToDecimal,
   convertToPence,
