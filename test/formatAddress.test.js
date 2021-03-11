@@ -11,6 +11,17 @@ test(`Formats address with building and street`, () => {
   ).toEqual('St Vincent House, Station Rd, Holton Heath, BH16 6HX');
 });
 
+test(`Formats address with number and street`, () => {
+  expect(
+    formatAddress({
+      building: '45',
+      street: 'Station Rd',
+      town: 'Holton Heath',
+      postcode: 'BH16 6HX',
+    }),
+  ).toEqual('45 Station Rd, Holton Heath, BH16 6HX');
+});
+
 test(`Formats address with lines`, () => {
   expect(
     formatAddress({
