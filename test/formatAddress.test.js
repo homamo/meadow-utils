@@ -50,3 +50,24 @@ test(`Formats address with all options`, () => {
     'St Vincent House, Admiralty Park, Station Rd, Holton Heath, Poole, Dorset, BH16 6HX, UK',
   );
 });
+
+test(`Formats address with missing sections`, () => {
+  expect(
+    formatAddress({
+      building: '45',
+      street: 'Station Rd',
+      postcode: 'BH16 6HX',
+    }),
+  ).toEqual('45 Station Rd, BH16 6HX');
+});
+
+test(`Formats address with empty sections`, () => {
+  expect(
+    formatAddress({
+      building: '45',
+      street: 'Station Rd',
+      town: '',
+      postcode: 'BH16 6HX',
+    }),
+  ).toEqual('45 Station Rd, BH16 6HX');
+});
