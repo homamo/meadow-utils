@@ -8,6 +8,8 @@ import checkUserHasRecordAccess from './lib/checkUserHasRecordAccess';
 import checkUserHasRole from './lib/checkUserHasRole';
 import checkUserNotificationsEnabled from './lib/checkUserNotificationsEnabled';
 
+import checkValueIsTrue from './lib/checkValueIsTrue';
+
 import cleanUserObject from './lib/cleanUserObject';
 
 import constructCloudinaryUrl from './lib/constructCloudinaryUrl';
@@ -54,6 +56,7 @@ export {
   checkUserNotificationsEnabled,
   cleanUserObject,
   checkFileIsCsv,
+  checkValueIsTrue,
   constructCloudinaryUrl,
   convertDecimalToPercent,
   convertPercentToDecimal,
