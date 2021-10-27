@@ -39,6 +39,9 @@ import getRandomString from './lib/getRandomString';
 import getYearList from './lib/getYearList';
 import getYearSelectOptions from './lib/getYearSelectOptions';
 
+import isDevEnv from './lib/isDevEnv';
+import isProdEnv from './lib/isProdEnv';
+
 import keepParams from './lib/keepParams';
 import pluralize from './lib/pluralize';
 import round from './lib/round';
@@ -80,6 +83,8 @@ export {
   getRandomString,
   getYearList,
   getYearSelectOptions,
+  isDevEnv,
+  isProdEnv,
   keepParams,
   pluralize,
   round,
