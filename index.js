@@ -1,11 +1,13 @@
 import capitalize from './lib/capitalize';
 import checkFileIsCsv from './lib/checkFileIsCsv';
+import checkIsSameId from './lib/checkIsSameId';
 
 import checkUserHasAnyRole from './lib/checkUserHasAnyRole';
 import checkUserHasBetaAccess from './lib/checkUserHasBetaAccess';
 import checkUserHasOneOfRoles from './lib/checkUserHasOneOfRoles';
 import checkUserHasRecordAccess from './lib/checkUserHasRecordAccess';
 import checkUserHasRole from './lib/checkUserHasRole';
+import checkUserHasProgress from './lib/checkUserHasProgress';
 import checkUserNotificationsEnabled from './lib/checkUserNotificationsEnabled';
 
 import checkValueIsTrue from './lib/checkValueIsTrue';
@@ -57,7 +59,9 @@ export {
   checkUserHasRecordAccess,
   checkUserHasRole,
   checkUserNotificationsEnabled,
+  checkUserHasProgress,
   cleanUserObject,
+  checkIsSameId,
   checkFileIsCsv,
   checkValueIsTrue,
   constructCloudinaryUrl,

@@ -8,6 +8,7 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - checkUserHasRecordAccess
 - checkUserHasRole
 - checkUserNotificationsEnabled
+- checkUserHasProgress
 
 - convertDecimalToPercent
 - convertPercentToDecimal
@@ -36,6 +37,7 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - capitalize
 - cleanUserObject
 - checkFileIsCsv
+- checkIsSameId
 - constructCloudinaryUrl
 - keepParams
 - pluralize
@@ -43,3 +45,6 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - safeUserProfileField
 - saveFile
 - scrollToTop,
+
+- isDevEnv
+- isProdEnv
