@@ -10,6 +10,7 @@ import checkUserHasRole from './lib/checkUserHasRole';
 import checkUserHasProgress from './lib/checkUserHasProgress';
 import checkUserNotificationsEnabled from './lib/checkUserNotificationsEnabled';
 
+import checkValidEmail from './lib/checkValidEmail';
 import checkValueIsTrue from './lib/checkValueIsTrue';
 
 import cleanUserObject from './lib/cleanUserObject';
@@ -61,6 +62,7 @@ export {
   checkUserNotificationsEnabled,
   checkUserHasProgress,
   cleanUserObject,
+  checkValidEmail,
   checkIsSameId,
   checkFileIsCsv,
   checkValueIsTrue,

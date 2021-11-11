@@ -38,6 +38,7 @@ Helpful utilties for [Homamo](https://homamo.co) Meadow projects.
 - cleanUserObject
 - checkFileIsCsv
 - checkIsSameId
+- checkValidEmail
 - constructCloudinaryUrl
 - keepParams
 - pluralize
